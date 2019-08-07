@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { useEvents, fetchEvents } from "./EventsProvider";
+import { useEvents, fetchEvents } from "../../events-context";
 
 function EventList() {
   const [state, dispatch] = useEvents();
